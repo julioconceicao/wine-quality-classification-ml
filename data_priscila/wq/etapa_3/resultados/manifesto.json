@@ -1,0 +1,33 @@
+{
+  "fonte_relativa": "../data/WineQT.csv",
+  "sha256": "7e38cc28812d08f521ee19e29e9d3622cde03464ff5e9a8b14aa991ec74ae49e",
+  "seed": 42,
+  "proporcao_teste": 0.2,
+  "alvo": "quality >= 7",
+  "features": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol"
+  ],
+  "registros_originais": 1143,
+  "repeticoes_removidas": 125,
+  "registros_em_grupos_duplicados": 239,
+  "registros_limpos": 1018,
+  "registros_treino": 814,
+  "registros_teste": 204,
+  "outliers": "mantidos; limites IQR calculados no treino",
+  "escala": "RobustScaler não ajustado; encaixar na pipeline do classificador",
+  "versoes": {
+    "pandas": "3.0.1",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.9.1"
+  }
+}
