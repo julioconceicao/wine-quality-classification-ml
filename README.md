@@ -17,7 +17,11 @@ wine-quality-classification-ml/
 ├── requirements.txt
 └── README.md
 ```
+## Apresentação Executiva
 
+A apresentação reúne os principais resultados da análise exploratória e da comparação dos modelos de classificação da qualidade dos vinhos.
+
+**[Acessar apresentação](https://drive.google.com/drive/folders/1qIqDWoRsvMEcOBc4O5ot_tLWXC-QPXs5?usp=drive_link)
 ## Próximas etapas
 
 1. Adicionar a base de dados em `data/`.
